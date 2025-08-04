@@ -4,7 +4,7 @@ export const ListHeader = (props) => {
     return (
         <div className="new-product-info">
             <div>
-                <label htmlFor="newProduct">Enter the name of product</label>
+                <label htmlFor="newProduct"><h4>Enter the name of product</h4></label>
             </div>
             <div className="new-product-data">
                 <input id="newProduct" type="text" />
